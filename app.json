@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "RoomFinder Mobile",
+    "slug": "roomfinder-mobile",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ],
+    "android": {
+      "package": "com.roomfinder.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18b0e3be-aa23-4328-acda-f9d64203db40"
+      }
+    }
+  }
+}
