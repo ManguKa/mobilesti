@@ -6,8 +6,7 @@
     "production": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "useGenericServer": true
+        "buildType": "apk"
       }
     },
     "apk": {
