@@ -3,6 +3,13 @@
     "appVersionSource": "local"
   },
   "build": {
+    "production": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "useGenericServer": true
+      }
+    },
     "apk": {
       "distribution": "internal",
       "android": {
